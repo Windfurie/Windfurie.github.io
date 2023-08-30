@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+	<title>Titulo da Página</title> <!--Titulo da página, aparece no topo-->
+	<meta charset="UTF-8"> <!--Define os caracteres para o modelo UTF-8-->
+	<link rel="shortcut icon" href="img/icon.png"> <!--Referencia o icone que aparece ao lado do titulo-->
+</head>
+<body bgcolor="grey"> <!--O corpo da página + "bgcolor" para alterar a cor-->
+	
+	<!--Tag comentário-->
+	<font size="5" font color="black" face="Arial"></font>
+	<!--Altera tamanho "font size" , cor "font color" e tipo de fonte "font face"--> 
+
+	<div style="background-color: #A0A0A0; padding: 5px; border-radius: 20px;"> <!--Uma div, mas é estilosa-->
+		<center><h2>Titulo</h2></center> <!--Um título, tag "h" pode ir de "h1" ao "h6"--> <!--"center" centraliza o texto-->
+		
+		<br>
+
+		<s>Texto riscado</s> <!--a tag "s" risca o texto no meio-->
+	<br>
+		<u>Texto sublinhado</u> <!--a tag "u" sublinha o texto-->
+	<br>
+		<b>Texto em negrito</b> <!--a tag "b" deixa o texto em negrito-->
+	<br>
+		<i>Texto em Itálico</i> <!--a tag "i" deixa o texto em Itálico-->
+	<br>
+		5<sup>2</sup> <!--a tag "sup" eleva o caractere-->
+	<br>
+		log<sub>(x)</sub> <!--a tag "sub" deixa o caractere abaixo-->
+
+	<br> <!-- faz a quebra de linha-->
+
+		<p>Um simples parágrafro</p> <!--A tag "p" cria um parágrafo--> 
+
+		<!--A tag "p" com atributo "align" ajusta a posição do texto-->
+		<p align="center">Um parágrafo alinhado ao centro.</p> <!--"center" centraliza o texto-->
+		<p align="justify">Um parágrafo justificado.</p> <!--"justify" justifica o texto-->
+		<p align="right">Um parágrafo alinhado à direita.</p> <!--"right" alinha à direita-->
+		<p align="left">Um parágrafo alinhado à esquerda.</p> <!--"left" alinha à esquerda-->
+		<p>&nbsp; &nbsp; Um paragrafo com espaço</p> <!--"&nbsp;" é usado para dar espaço no inicio do parágrafo-->
+
+	<br>
+		<a href="page2.html"> <button>Clique aqui</button></a> <!--a tag "a" gera um campo para Hyperlink, e a tag "button" está contida dentro de "a", criando um botão com Hyperlink-->
+</div>
+		
+		<img src="img/head.png" width=200px;> 
+	<!--a tag "img" cria um campo para imagem, segue do caminho e pode ter atributos, como largura "width" o altura "heigth"-->
+
+		<img src="img/warmachine.png" height=200px border=5px> <!--o atributo "border" adiciona uma borda à imagem-->
+</body>
+</html>
